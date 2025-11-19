@@ -1,11 +1,12 @@
 import * as assert from 'assert';
 import * as createHash from 'create-hash';
 import { beforeEach, describe, it } from 'mocha';
-import * as proxyquire from 'proxyquire';
+// import * as proxyquire from 'proxyquire';
 import { ECPairFactory, ECPairInterface, networks as NETWORKS } from '..';
 import * as fixtures from './fixtures/ecpair.json';
 const hoodwink = require('hoodwink');
 const tinysecp = require('tiny-secp256k1');
+const proxyquire = require('proxyquire');
 
 const ECPair = ECPairFactory(tinysecp);
 

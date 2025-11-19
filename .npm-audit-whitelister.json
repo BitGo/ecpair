@@ -1,1 +1,5 @@
-[]
+[
+  "base-x (high) Homograph attack allows Unicode lookalike characters to bypass validation.:node_modules/base-x:1104177",
+  "cipher-base (critical) cipher-base is missing type checks, leading to hash rewind and passing on crafted data:node_modules/cipher-base:1109536",
+  "sha.js (critical) sha.js is missing type checks leading to hash rewind and passing on crafted data:node_modules/sha.js:1109535"
+]
